@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Profile </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel = "stylesheet">
+    <style type = "text/css">
+    #picture
+    {
+      position:absolute;  top: 200px; 
+    }
+    
+    #genre
+    {
+      position:absolute;  top: 250px;
+    }
+    p
+    {
+        
+    }
+    
+    </style>
+    </head>
+    
+    <body>
+    <div class = "navbar navbar-inverse">  
+      <button type = "button" class = "btn btn-default btn-lg"> 
+        <span class = "glyphicon glyphicon-align-left"> </span>
+      </button>
+      <button type = "button" class = "btn btn-default btn-lg">
+        <span class = "glyphicon glyphicon-home"> </span>
+      </button>
+    </div>
+    
+    <div class="media">
+    <a class="pull-left" href="#">
+    <img class="media-object" src="..." alt="Picture Goes Here">
+    </a>
+    <div class="media-body">
+    <div class="fullName">Friend's Full Name</div>
+
+    </div>
+    </div>
+    </div>
+    
+    <div class="btn-group" id = "picture">
+    <button type="button" class="btn btn-default">Add Friend</button>
+    <button type="button" class="btn btn-default">Block</button>
+    <button type="button" class="btn btn-default">View Pictures</button>
+    </div>
+    
+    <form role="form">
+    <div id = "genre">
+    <p> Genre </p>
+    <div class="col-sm-offset-2 col-sm-10">
+    <div class="input-group">
+    <input type="text" class="form-control">
+    <span class="input-group-btn">
+    <button class="btn btn-default" type="button">X</button>
+     </span>
+     </div>
+    </div>
+    
+    
+    <div class="col-sm-offset-2 col-sm-10">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> + </span>
+            
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Rock</a></li>
+         
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  
+  
+     <p> About Me </p>
+     <textarea class="form-control" rows="5"></textarea>
+     <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10" id = "aboutMe">
+     <button type="submit" class="btn btn-primary">Add Summary</button>
+     </div>
+     </div>
+     
+     <p> Instrument</p>
+     <div class="col-sm-offset-2 col-sm-10">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> + </span>
+            
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Guitar</a></li>
+          <li><a href="#">Drums</a></li>
+          <li><a href="#">Piano</a></li>
+          <li><a href="#">Bass</a></li>
+          <li><a href="#">Vocals</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  
+  <p> Contact Information </p>
+    <div class="col-sm-offset-2 col-sm-10">
+    <div class="input-group">
+    <input type="text" placeholder = "Phone Number">
+    
+    </div>
+    </div>
+    <div class="col-sm-offset-2 col-sm-10">
+    <div class="input-group">
+    <input type="text" placeholder = "Address">
+    </div>
+    </div>
+    
+  
+
+</div>
+</form>
+</body>
+</html>
